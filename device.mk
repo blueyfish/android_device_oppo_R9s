@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     init.device.rc \
     init.device.sh
 
+# VOOC firmware
+PRODUCT_PACKAGES += \
+    vooc_fw_4400mv.bin
+
 # Wifi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
